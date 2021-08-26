@@ -641,10 +641,10 @@ License: CC BY-SA 4.0 or later
 Wire Wire Line
 	1800 1650 2050 1650
 $Comp
-L Connector:Conn_01x01_Male MicA-In-Sig1
+L Connector:Conn_01x01_Male MicInA-Sig1
 U 1 1 60ED7398
 P 1850 1650
-F 0 "MicA-In-Sig1" H 1956 1828 50  0000 C CNN
+F 0 "MicInA-Sig1" H 1956 1828 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 1737 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 1650 50  0001 C CNN
 F 3 "~" H 1850 1650 50  0001 C CNN
@@ -652,10 +652,10 @@ F 3 "~" H 1850 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male MicA-In-Bias1
+L Connector:Conn_01x01_Male MicInA-Bias1
 U 1 1 60EDA311
 P 1850 2000
-F 0 "MicA-In-Bias1" H 1956 2178 50  0000 C CNN
+F 0 "MicInA-Bias1" H 1956 2178 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 2087 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 2000 50  0001 C CNN
 F 3 "~" H 1850 2000 50  0001 C CNN
@@ -663,10 +663,10 @@ F 3 "~" H 1850 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male MicA-In-Gnd1
+L Connector:Conn_01x01_Male MicInA-Gnd1
 U 1 1 60EDDFEE
 P 1850 2350
-F 0 "MicA-In-Gnd1" H 1956 2528 50  0000 C CNN
+F 0 "MicInA-Gnd1" H 1956 2528 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 2437 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 2350 50  0001 C CNN
 F 3 "~" H 1850 2350 50  0001 C CNN
@@ -696,10 +696,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 2000 2300 3250
 $Comp
-L Connector:Conn_01x01_Male MicB-In-Sig1
+L Connector:Conn_01x01_Male MicInB-Sig1
 U 1 1 60F3507A
 P 1850 2900
-F 0 "MicB-In-Sig1" H 1956 3078 50  0000 C CNN
+F 0 "MicInB-Sig1" H 1956 3078 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 2987 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 2900 50  0001 C CNN
 F 3 "~" H 1850 2900 50  0001 C CNN
@@ -707,10 +707,10 @@ F 3 "~" H 1850 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male MicB-In-Bias1
+L Connector:Conn_01x01_Male MicInB-Bias1
 U 1 1 60F390E4
 P 1850 3250
-F 0 "MicB-In-Bias1" H 1956 3428 50  0000 C CNN
+F 0 "MicInB-Bias1" H 1956 3428 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 3337 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 3250 50  0001 C CNN
 F 3 "~" H 1850 3250 50  0001 C CNN
@@ -718,10 +718,10 @@ F 3 "~" H 1850 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male MicB-In-Gnd1
+L Connector:Conn_01x01_Male MicInB-Gnd1
 U 1 1 60F3D199
 P 1850 3600
-F 0 "MicB-In-Gnd1" H 1956 3778 50  0000 C CNN
+F 0 "MicInB-Gnd1" H 1956 3778 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 3687 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 3600 50  0001 C CNN
 F 3 "~" H 1850 3600 50  0001 C CNN
@@ -745,10 +745,10 @@ Connection ~ 8900 2150
 Wire Wire Line
 	8900 2150 8900 2200
 $Comp
-L Connector:Conn_01x01_Male MicA-Out-Pos1
+L Connector:Conn_01x01_Male MicOutA-Pos1
 U 1 1 60FA54FA
 P 9550 1550
-F 0 "MicA-Out-Pos1" H 9656 1728 50  0000 C CNN
+F 0 "MicOutA-Pos1" H 9656 1728 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 1637 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 1550 50  0001 C CNN
 F 3 "~" H 9550 1550 50  0001 C CNN
@@ -758,10 +758,10 @@ $EndComp
 Wire Wire Line
 	9350 1550 9750 1550
 $Comp
-L Connector:Conn_01x01_Male MicA-Out-Neg1
+L Connector:Conn_01x01_Male MicOutA-Neg1
 U 1 1 60FAAA8C
 P 9550 1850
-F 0 "MicA-Out-Neg1" H 9656 2028 50  0000 C CNN
+F 0 "MicOutA-Neg1" H 9656 2028 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 1937 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 1850 50  0001 C CNN
 F 3 "~" H 9550 1850 50  0001 C CNN
@@ -769,10 +769,10 @@ F 3 "~" H 9550 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male MicA-Out-Gnd1
+L Connector:Conn_01x01_Male MicOutA-Gnd1
 U 1 1 60FAEA59
 P 9550 2150
-F 0 "MicA-Out-Gnd1" H 9656 2328 50  0000 C CNN
+F 0 "MicOutA-Gnd1" H 9656 2328 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 2237 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 2150 50  0001 C CNN
 F 3 "~" H 9550 2150 50  0001 C CNN
@@ -796,10 +796,10 @@ Connection ~ 7100 2050
 Wire Wire Line
 	7200 2050 7100 2050
 $Comp
-L Connector:Conn_01x01_Male MicB-Out-Pos1
+L Connector:Conn_01x01_Male MicOutB-Pos1
 U 1 1 60FBFF69
 P 9550 3250
-F 0 "MicB-Out-Pos1" H 9656 3428 50  0000 C CNN
+F 0 "MicOutB-Pos1" H 9656 3428 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 3337 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 3250 50  0001 C CNN
 F 3 "~" H 9550 3250 50  0001 C CNN
@@ -818,10 +818,10 @@ Connection ~ 8900 3850
 Wire Wire Line
 	8900 3850 8900 3900
 $Comp
-L Connector:Conn_01x01_Male MicB-Out-Neg1
+L Connector:Conn_01x01_Male MicOutB-Neg1
 U 1 1 60FDC45F
 P 9550 3550
-F 0 "MicB-Out-Neg1" H 9656 3728 50  0000 C CNN
+F 0 "MicOutB-Neg1" H 9656 3728 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 3637 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 3550 50  0001 C CNN
 F 3 "~" H 9550 3550 50  0001 C CNN
@@ -832,10 +832,10 @@ Connection ~ 9750 3250
 Wire Wire Line
 	9750 3250 9850 3250
 $Comp
-L Connector:Conn_01x01_Male MicB-Out-Gnd1
+L Connector:Conn_01x01_Male MicOutB-Gnd1
 U 1 1 60FE4399
 P 9550 3850
-F 0 "MicB-Out-Gnd1" H 9656 4028 50  0000 C CNN
+F 0 "MicOutB-Gnd1" H 9656 4028 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 3937 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 3850 50  0001 C CNN
 F 3 "~" H 9550 3850 50  0001 C CNN
@@ -867,13 +867,6 @@ Text GLabel 4550 6350 2    50   Input ~ 0
 V3pos
 Wire Wire Line
 	4000 6650 3850 6650
-Wire Wire Line
-	3250 6950 3850 6950
-Wire Wire Line
-	3250 7250 3850 7250
-Connection ~ 3850 6350
-Wire Wire Line
-	3850 6350 3250 6350
 $Comp
 L Connector:Conn_01x01_Male V3batP-1
 U 1 1 610E74DD
@@ -907,10 +900,6 @@ F 3 "~" H 3650 7250 50  0001 C CNN
 	1    3650 7250
 	1    0    0    1   
 $EndComp
-Connection ~ 3850 6650
-Wire Wire Line
-	3850 6650 3250 6650
-Connection ~ 3850 7250
 Wire Wire Line
 	3850 6350 4250 6350
 Wire Wire Line
@@ -1020,7 +1009,6 @@ Wire Wire Line
 Connection ~ 4400 3300
 Text GLabel 4550 7250 2    50   Input ~ 0
 V3neg
-Connection ~ 3850 6950
 Wire Wire Line
 	3850 6950 4000 6950
 Connection ~ 4250 7250
@@ -1145,38 +1133,30 @@ Wire Wire Line
 	4700 6800 4700 6900
 Wire Wire Line
 	4250 7250 4550 7250
-Text GLabel 3250 7250 0    50   Input ~ 0
-V3batN-
-Text GLabel 3250 6950 0    50   Input ~ 0
-V3batN+
-Text GLabel 3250 6650 0    50   Input ~ 0
-V3batP-
-Text GLabel 3250 6350 0    50   Input ~ 0
-V3batP+
 Text GLabel 9850 3250 2    50   Input ~ 0
-MicB-Out-Pos
+MicOutB-Pos
 Text GLabel 9850 3550 2    50   Input ~ 0
-MicB-Out-Neg
+MicOutB-Neg
 Text GLabel 9850 3850 2    50   Input ~ 0
-MicB-Out-Gnd
+MicOutB-Gnd
 Text GLabel 9850 1550 2    50   Input ~ 0
-MicA-Out-Pos
+MicOutA-Pos
 Text GLabel 9850 1850 2    50   Input ~ 0
-MicA-Out-Neg
+MicOutA-Neg
 Text GLabel 9850 2150 2    50   Input ~ 0
-MicA-Out-Gnd
+MicOutA-Gnd
 Text GLabel 1800 1650 0    50   Input ~ 0
-MicA-In-Sig
+MicInA-Sig
 Text GLabel 1800 2900 0    50   Input ~ 0
-MicB-In-Sig
+MicInB-Sig
 Text GLabel 1800 3600 0    50   Input ~ 0
-MicB-In-Gnd
+MicInB-Gnd
 Text GLabel 1800 2350 0    50   Input ~ 0
-MicA-In-Gnd
+MicInA-Gnd
 Text GLabel 1800 3250 0    50   Input ~ 0
-MicB-In-Bias
+MicInB-Bias
 Text GLabel 1800 2000 0    50   Input ~ 0
-MicA-In-Bias
+MicInA-Bias
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 612F1534
