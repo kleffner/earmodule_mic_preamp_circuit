@@ -5,20 +5,20 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Ear Module Mic Pre-Amp Circuit"
+Date "2021-08-31"
+Rev "0.9"
+Comp "Author: Matt Kleffner"
+Comment1 "License: CC BY-SA 4.0 or later"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 2020-10-23_17-38-47:AD8476ARMZ U200
+L 2020-10-23_17-38-47:AD8476ARMZ U100
 U 1 1 603C2CCE
 P 7200 1650
-F 0 "U200" H 8000 2037 60  0000 C CNN
+F 0 "U100" H 8000 2037 60  0000 C CNN
 F 1 "AD8476ARMZ" H 8000 1931 60  0000 C CNN
 F 2 "footprints:AD8476ARMZ" H 8000 1890 60  0001 C CNN
 F 3 "" H 7200 1650 60  0000 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 7200 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2020-10-23_17-38-47:AD8476ARMZ U300
+L 2020-10-23_17-38-47:AD8476ARMZ U200
 U 1 1 603C2D39
 P 7200 3350
-F 0 "U300" H 8000 3737 60  0000 C CNN
+F 0 "U200" H 8000 3737 60  0000 C CNN
 F 1 "AD8476ARMZ" H 8000 3631 60  0000 C CNN
 F 2 "footprints:AD8476ARMZ" H 8000 3590 60  0001 C CNN
 F 3 "" H 7200 3350 60  0000 C CNN
@@ -37,10 +37,10 @@ F 3 "" H 7200 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2020-10-23_21-02-19:ADA4661-2ARMZ U100
+L 2020-10-23_21-02-19:ADA4661-2ARMZ U300
 U 1 1 603C2E42
 P 4400 2300
-F 0 "U100" H 5300 2787 60  0000 C CNN
+F 0 "U300" H 5300 2787 60  0000 C CNN
 F 1 "ADA4661-2ARMZ" H 5300 2681 60  0000 C CNN
 F 2 "footprints:ADA4661-2ARMZ" H 5300 2640 60  0001 C CNN
 F 3 "" H 4400 2300 60  0000 C CNN
@@ -115,10 +115,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 3550 8900 3550
 $Comp
-L Device:R R200
+L Device:R R100
 U 1 1 603C4137
 P 9200 1550
-F 0 "R200" V 9407 1550 50  0000 C CNN
+F 0 "R100" V 9407 1550 50  0000 C CNN
 F 1 "50" V 9316 1550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9130 1550 50  0001 C CNN
 F 3 "~" H 9200 1550 50  0001 C CNN
@@ -126,10 +126,10 @@ F 3 "~" H 9200 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R201
+L Device:R R101
 U 1 1 603C424E
 P 9200 1850
-F 0 "R201" V 9407 1850 50  0000 C CNN
+F 0 "R101" V 9407 1850 50  0000 C CNN
 F 1 "50" V 9316 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9130 1850 50  0001 C CNN
 F 3 "~" H 9200 1850 50  0001 C CNN
@@ -137,10 +137,10 @@ F 3 "~" H 9200 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R300
+L Device:R R200
 U 1 1 603C4A36
 P 9200 3250
-F 0 "R300" V 9407 3250 50  0000 C CNN
+F 0 "R200" V 9407 3250 50  0000 C CNN
 F 1 "50" V 9316 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9130 3250 50  0001 C CNN
 F 3 "~" H 9200 3250 50  0001 C CNN
@@ -148,10 +148,10 @@ F 3 "~" H 9200 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R301
+L Device:R R201
 U 1 1 603C4A3C
 P 9200 3550
-F 0 "R301" V 9407 3550 50  0000 C CNN
+F 0 "R201" V 9407 3550 50  0000 C CNN
 F 1 "50" V 9316 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9130 3550 50  0001 C CNN
 F 3 "~" H 9200 3550 50  0001 C CNN
@@ -253,10 +253,10 @@ Wire Wire Line
 	7200 2450 7100 2450
 Connection ~ 7200 2450
 $Comp
-L Device:R R101B1
+L Device:R R312
 U 1 1 603D7539
 P 5300 4150
-F 0 "R101B1" V 5507 4150 50  0000 C CNN
+F 0 "R312" V 5507 4150 50  0000 C CNN
 F 1 "140K" V 5416 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5230 4150 50  0001 C CNN
 F 3 "~" H 5300 4150 50  0001 C CNN
@@ -264,10 +264,10 @@ F 3 "~" H 5300 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C101B1
+L Device:C C312
 U 1 1 603D75CB
 P 5300 4550
-F 0 "C101B1" V 5048 4550 50  0000 C CNN
+F 0 "C312" V 5048 4550 50  0000 C CNN
 F 1 "51pF" V 5139 4550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5338 4400 50  0001 C CNN
 F 3 "~" H 5300 4550 50  0001 C CNN
@@ -282,10 +282,10 @@ Wire Wire Line
 Text GLabel 4300 3300 0    50   Input ~ 0
 V3pos
 $Comp
-L Device:C C102
+L Device:C C303
 U 1 1 603D92F6
 P 4400 3500
-F 0 "C102" H 4515 3546 50  0000 L CNN
+F 0 "C303" H 4515 3546 50  0000 L CNN
 F 1 "0.1uF" H 4515 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 3350 50  0001 C CNN
 F 3 "~" H 4400 3500 50  0001 C CNN
@@ -335,10 +335,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 2900 2850 2900
 $Comp
-L Device:C C100B1
+L Device:C C302
 U 1 1 603E0EBA
 P 2600 2900
-F 0 "C100B1" V 2348 2900 50  0000 C CNN
+F 0 "C302" V 2348 2900 50  0000 C CNN
 F 1 "0.47uF" V 2439 2900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2638 2750 50  0001 C CNN
 F 3 "~" H 2600 2900 50  0001 C CNN
@@ -346,10 +346,10 @@ F 3 "~" H 2600 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R100B1
+L Device:R R302
 U 1 1 603DFFCB
 P 3000 2900
-F 0 "R100B1" V 3207 2900 50  0000 C CNN
+F 0 "R302" V 3207 2900 50  0000 C CNN
 F 1 "20K" V 3116 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 2900 50  0001 C CNN
 F 3 "~" H 3000 2900 50  0001 C CNN
@@ -357,10 +357,10 @@ F 3 "~" H 3000 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R100A1
+L Device:R R301
 U 1 1 603E8C9D
 P 3000 1650
-F 0 "R100A1" V 3207 1650 50  0000 C CNN
+F 0 "R301" V 3207 1650 50  0000 C CNN
 F 1 "20K" V 3116 1650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 1650 50  0001 C CNN
 F 3 "~" H 3000 1650 50  0001 C CNN
@@ -368,10 +368,10 @@ F 3 "~" H 3000 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C100A1
+L Device:C C301
 U 1 1 603E8CDD
 P 2600 1650
-F 0 "C100A1" V 2348 1650 50  0000 C CNN
+F 0 "C301" V 2348 1650 50  0000 C CNN
 F 1 "0.47uF" V 2439 1650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2638 1500 50  0001 C CNN
 F 3 "~" H 2600 1650 50  0001 C CNN
@@ -381,10 +381,10 @@ $EndComp
 Wire Wire Line
 	2750 1650 2850 1650
 $Comp
-L Device:R R101A1
+L Device:R R311
 U 1 1 603F111A
 P 5300 1100
-F 0 "R101A1" V 5507 1100 50  0000 C CNN
+F 0 "R311" V 5507 1100 50  0000 C CNN
 F 1 "140K" V 5416 1100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5230 1100 50  0001 C CNN
 F 3 "~" H 5300 1100 50  0001 C CNN
@@ -392,10 +392,10 @@ F 3 "~" H 5300 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C101A1
+L Device:C C311
 U 1 1 603F11A4
 P 5300 1500
-F 0 "C101A1" V 5048 1500 50  0000 C CNN
+F 0 "C311" V 5048 1500 50  0000 C CNN
 F 1 "51pF" V 5139 1500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5338 1350 50  0001 C CNN
 F 3 "~" H 5300 1500 50  0001 C CNN
@@ -444,10 +444,10 @@ F 3 "" H 2050 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R102A1
+L Device:R R321
 U 1 1 60416E6B
 P 3500 2100
-F 0 "R102A1" H 3430 2054 50  0000 R CNN
+F 0 "R321" H 3430 2054 50  0000 R CNN
 F 1 "17.4K" H 3430 2145 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3430 2100 50  0001 C CNN
 F 3 "~" H 3500 2100 50  0001 C CNN
@@ -455,10 +455,10 @@ F 3 "~" H 3500 2100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R103A1
+L Device:R R331
 U 1 1 60418F5A
 P 3500 1750
-F 0 "R103A1" H 3430 1704 50  0000 R CNN
+F 0 "R331" H 3430 1704 50  0000 R CNN
 F 1 "100" H 3430 1795 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3430 1750 50  0001 C CNN
 F 3 "~" H 3500 1750 50  0001 C CNN
@@ -481,10 +481,10 @@ Wire Wire Line
 Wire Wire Line
 	3500 1900 3500 1950
 $Comp
-L Device:R R102B1
+L Device:R R322
 U 1 1 6041F4FA
 P 3950 2150
-F 0 "R102B1" H 3880 2104 50  0000 R CNN
+F 0 "R322" H 3880 2104 50  0000 R CNN
 F 1 "17.4K" H 3880 2195 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3880 2150 50  0001 C CNN
 F 3 "~" H 3950 2150 50  0001 C CNN
@@ -492,10 +492,10 @@ F 3 "~" H 3950 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R103B1
+L Device:R R332
 U 1 1 6041F500
 P 3950 1800
-F 0 "R103B1" H 3880 1754 50  0000 R CNN
+F 0 "R332" H 3880 1754 50  0000 R CNN
 F 1 "100" H 3880 1845 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3880 1800 50  0001 C CNN
 F 3 "~" H 3950 1800 50  0001 C CNN
@@ -577,21 +577,21 @@ F 3 "" H 2100 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C403
+L Device:C C404
 U 1 1 6044DB0A
-P 4350 5200
-F 0 "C403" H 4465 5246 50  0000 L CNN
-F 1 "22uF" H 4465 5155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4388 5050 50  0001 C CNN
-F 3 "~" H 4350 5200 50  0001 C CNN
-	1    4350 5200
+P 4350 5400
+F 0 "C404" H 4465 5446 50  0000 L CNN
+F 1 "22uF" H 4465 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4388 5250 50  0001 C CNN
+F 3 "~" H 4350 5400 50  0001 C CNN
+	1    4350 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C CBP1
+L Device:C CP1
 U 1 1 6045468F
 P 4250 6600
-F 0 "CBP1" H 4365 6646 50  0000 L CNN
+F 0 "CP1" H 4365 6646 50  0000 L CNN
 F 1 "22uF" H 4365 6555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4288 6450 50  0001 C CNN
 F 3 "~" H 4250 6600 50  0001 C CNN
@@ -613,8 +613,6 @@ F 3 "" H 4700 6900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 5050 2300 5050
-Wire Wire Line
-	3500 5550 3500 5600
 $Comp
 L power:GNDA #PWR0118
 U 1 1 6046D2B2
@@ -628,166 +626,127 @@ F 3 "" H 4350 5600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4350 4900 4350 4450
-Text Notes 10650 7650 0    50   ~ 0
-0.01
-Text Notes 8200 7650 0    50   ~ 0
-2021-07-11
-Text Notes 7400 7500 0    50   ~ 0
-Ear Module Mic Pre-Amp Circuit
-Text Notes 7150 6700 0    50   ~ 0
+Text Notes 2200 7900 0    50   ~ 0
 Author: Matt Kleffner
-Text Notes 7150 6850 0    50   ~ 0
-License: CC BY-SA 4.0 or later
-Wire Wire Line
-	1800 1650 2050 1650
 $Comp
-L Connector:Conn_01x01_Male MicInA-Sig1
+L Connector:Conn_01x01_Male MicIn-Sig1
 U 1 1 60ED7398
 P 1850 1650
-F 0 "MicInA-Sig1" H 1956 1828 50  0000 C CNN
+F 0 "MicIn-Sig1" H 1956 1828 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 1737 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 1650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 1850 1650 50  0001 C CNN
 F 3 "~" H 1850 1650 50  0001 C CNN
 	1    1850 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male MicInA-Bias1
+L Connector:Conn_01x01_Male MicIn-Bias1
 U 1 1 60EDA311
 P 1850 2000
-F 0 "MicInA-Bias1" H 1956 2178 50  0000 C CNN
+F 0 "MicIn-Bias1" H 1956 2178 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 2087 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 2000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 1850 2000 50  0001 C CNN
 F 3 "~" H 1850 2000 50  0001 C CNN
 	1    1850 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male MicInA-Gnd1
+L Connector:Conn_01x01_Male MicIn-Gnd1
 U 1 1 60EDDFEE
 P 1850 2350
-F 0 "MicInA-Gnd1" H 1956 2528 50  0000 C CNN
+F 0 "MicIn-Gnd1" H 1956 2528 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 2437 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 2350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 1850 2350 50  0001 C CNN
 F 3 "~" H 1850 2350 50  0001 C CNN
 	1    1850 2350
 	1    0    0    -1  
 $EndComp
-Connection ~ 2050 1650
-Connection ~ 2050 2000
-Wire Wire Line
-	2050 2000 1800 2000
-Wire Wire Line
-	1800 2350 2050 2350
-Connection ~ 2050 2350
 Wire Wire Line
 	2050 1650 2450 1650
 Wire Wire Line
 	2050 2000 2300 2000
-Wire Wire Line
-	1800 2900 2050 2900
-Wire Wire Line
-	1800 3250 2050 3250
-Wire Wire Line
-	1800 3600 2050 3600
 Connection ~ 2300 3250
 Wire Wire Line
 	2300 3250 2300 4450
 Wire Wire Line
 	2300 2000 2300 3250
 $Comp
-L Connector:Conn_01x01_Male MicInB-Sig1
+L Connector:Conn_01x01_Male MicIn-Sig2
 U 1 1 60F3507A
 P 1850 2900
-F 0 "MicInB-Sig1" H 1956 3078 50  0000 C CNN
+F 0 "MicIn-Sig2" H 1956 3078 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 2987 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 2900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 1850 2900 50  0001 C CNN
 F 3 "~" H 1850 2900 50  0001 C CNN
 	1    1850 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male MicInB-Bias1
+L Connector:Conn_01x01_Male MicIn-Bias2
 U 1 1 60F390E4
 P 1850 3250
-F 0 "MicInB-Bias1" H 1956 3428 50  0000 C CNN
+F 0 "MicIn-Bias2" H 1956 3428 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 3337 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 3250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 1850 3250 50  0001 C CNN
 F 3 "~" H 1850 3250 50  0001 C CNN
 	1    1850 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male MicInB-Gnd1
+L Connector:Conn_01x01_Male MicIn-Gnd2
 U 1 1 60F3D199
 P 1850 3600
-F 0 "MicInB-Gnd1" H 1956 3778 50  0000 C CNN
+F 0 "MicIn-Gnd2" H 1956 3778 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 1956 3687 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1850 3600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 1850 3600 50  0001 C CNN
 F 3 "~" H 1850 3600 50  0001 C CNN
 	1    1850 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 2050 2900
 Wire Wire Line
 	2050 2900 2450 2900
-Connection ~ 2050 3250
 Wire Wire Line
 	2050 3250 2300 3250
-Connection ~ 2050 3600
 Wire Wire Line
 	8900 1850 8900 2150
-Wire Wire Line
-	9350 1850 9750 1850
 Wire Wire Line
 	8900 2150 9750 2150
 Connection ~ 8900 2150
 Wire Wire Line
 	8900 2150 8900 2200
 $Comp
-L Connector:Conn_01x01_Male MicOutA-Pos1
+L Connector:Conn_01x01_Male MicOut-Pos1
 U 1 1 60FA54FA
 P 9550 1550
-F 0 "MicOutA-Pos1" H 9656 1728 50  0000 C CNN
+F 0 "MicOut-Pos1" H 9656 1728 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 1637 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 1550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 9550 1550 50  0001 C CNN
 F 3 "~" H 9550 1550 50  0001 C CNN
 	1    9550 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9350 1550 9750 1550
 $Comp
-L Connector:Conn_01x01_Male MicOutA-Neg1
+L Connector:Conn_01x01_Male MicOut-Neg1
 U 1 1 60FAAA8C
 P 9550 1850
-F 0 "MicOutA-Neg1" H 9656 2028 50  0000 C CNN
+F 0 "MicOut-Neg1" H 9656 2028 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 1937 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 1850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 9550 1850 50  0001 C CNN
 F 3 "~" H 9550 1850 50  0001 C CNN
 	1    9550 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male MicOutA-Gnd1
+L Connector:Conn_01x01_Male MicOut-Gnd1
 U 1 1 60FAEA59
 P 9550 2150
-F 0 "MicOutA-Gnd1" H 9656 2328 50  0000 C CNN
+F 0 "MicOut-Gnd1" H 9656 2328 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 2237 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 2150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 9550 2150 50  0001 C CNN
 F 3 "~" H 9550 2150 50  0001 C CNN
 	1    9550 2150
 	1    0    0    -1  
 $EndComp
-Connection ~ 9750 1550
-Wire Wire Line
-	9750 1550 9850 1550
-Connection ~ 9750 1850
-Wire Wire Line
-	9750 1850 9850 1850
-Connection ~ 9750 2150
-Wire Wire Line
-	9750 2150 9850 2150
 Wire Wire Line
 	7100 2050 7100 2100
 Wire Wire Line
@@ -796,12 +755,12 @@ Connection ~ 7100 2050
 Wire Wire Line
 	7200 2050 7100 2050
 $Comp
-L Connector:Conn_01x01_Male MicOutB-Pos1
+L Connector:Conn_01x01_Male MicOut-Pos2
 U 1 1 60FBFF69
 P 9550 3250
-F 0 "MicOutB-Pos1" H 9656 3428 50  0000 C CNN
+F 0 "MicOut-Pos2" H 9656 3428 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 3337 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 3250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 9550 3250 50  0001 C CNN
 F 3 "~" H 9550 3250 50  0001 C CNN
 	1    9550 3250
 	1    0    0    -1  
@@ -818,43 +777,34 @@ Connection ~ 8900 3850
 Wire Wire Line
 	8900 3850 8900 3900
 $Comp
-L Connector:Conn_01x01_Male MicOutB-Neg1
+L Connector:Conn_01x01_Male MicOut-Neg2
 U 1 1 60FDC45F
 P 9550 3550
-F 0 "MicOutB-Neg1" H 9656 3728 50  0000 C CNN
+F 0 "MicOut-Neg2" H 9656 3728 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 3637 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 3550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 9550 3550 50  0001 C CNN
 F 3 "~" H 9550 3550 50  0001 C CNN
 	1    9550 3550
 	1    0    0    -1  
 $EndComp
-Connection ~ 9750 3250
-Wire Wire Line
-	9750 3250 9850 3250
 $Comp
-L Connector:Conn_01x01_Male MicOutB-Gnd1
+L Connector:Conn_01x01_Male MicOut-Gnd2
 U 1 1 60FE4399
 P 9550 3850
-F 0 "MicOutB-Gnd1" H 9656 4028 50  0000 C CNN
+F 0 "MicOut-Gnd2" H 9656 4028 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9656 3937 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9550 3850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 9550 3850 50  0001 C CNN
 F 3 "~" H 9550 3850 50  0001 C CNN
 	1    9550 3850
 	1    0    0    -1  
 $EndComp
-Connection ~ 9750 3550
-Wire Wire Line
-	9750 3550 9850 3550
-Connection ~ 9750 3850
-Wire Wire Line
-	9750 3850 9850 3850
 $Comp
-L Connector:Conn_01x01_Male V3batP+1
+L Connector:Conn_01x01_Male Ps_T+_V3
 U 1 1 60FF31EC
 P 3650 6350
-F 0 "V3batP+1" H 3756 6528 50  0000 C CNN
+F 0 "Ps_T+_V3" H 3756 6528 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3756 6437 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3650 6350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 3650 6350 50  0001 C CNN
 F 3 "~" H 3650 6350 50  0001 C CNN
 	1    3650 6350
 	1    0    0    -1  
@@ -868,34 +818,34 @@ V3pos
 Wire Wire Line
 	4000 6650 3850 6650
 $Comp
-L Connector:Conn_01x01_Male V3batP-1
+L Connector:Conn_01x01_Male Ps_T-_V3
 U 1 1 610E74DD
 P 3650 6650
-F 0 "V3batP-1" H 3756 6828 50  0000 C CNN
+F 0 "Ps_T-_V3" H 3756 6828 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3756 6737 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3650 6650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 3650 6650 50  0001 C CNN
 F 3 "~" H 3650 6650 50  0001 C CNN
 	1    3650 6650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male V3batN+1
+L Connector:Conn_01x01_Male Ns_T+_V3
 U 1 1 610EC867
 P 3650 6950
-F 0 "V3batN+1" H 3756 7128 50  0000 C CNN
+F 0 "Ns_T+_V3" H 3756 7128 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3756 7037 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3650 6950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 3650 6950 50  0001 C CNN
 F 3 "~" H 3650 6950 50  0001 C CNN
 	1    3650 6950
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male V3batN-1
+L Connector:Conn_01x01_Male Ns_T-_V3
 U 1 1 610F1826
 P 3650 7250
-F 0 "V3batN-1" H 3756 7428 50  0000 C CNN
+F 0 "Ns_T-_V3" H 3756 7428 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3756 7337 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3650 7250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 3650 7250 50  0001 C CNN
 F 3 "~" H 3650 7250 50  0001 C CNN
 	1    3650 7250
 	1    0    0    1   
@@ -927,25 +877,25 @@ Wire Wire Line
 $Comp
 L Device:C C400
 U 1 1 61162D38
-P 1750 5400
-F 0 "C400" H 1865 5446 50  0000 L CNN
-F 1 "1uF" H 1865 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1788 5250 50  0001 C CNN
-F 3 "~" H 1750 5400 50  0001 C CNN
-	1    1750 5400
-	1    0    0    -1  
+P 1500 5400
+F 0 "C400" H 1615 5446 50  0000 L CNN
+F 1 "1uF" H 1615 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1538 5250 50  0001 C CNN
+F 3 "~" H 1500 5400 50  0001 C CNN
+	1    1500 5400
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2300 4450 4350 4450
 $Comp
-L Device:C C401
+L Device:C C403
 U 1 1 611913DE
-P 4100 5200
-F 0 "C401" H 4215 5246 50  0000 L CNN
-F 1 "1uF" H 4215 5155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4138 5050 50  0001 C CNN
-F 3 "~" H 4100 5200 50  0001 C CNN
-	1    4100 5200
+P 4100 5400
+F 0 "C403" H 4215 5446 50  0000 L CNN
+F 1 "1uF" H 4215 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4138 5250 50  0001 C CNN
+F 3 "~" H 4100 5400 50  0001 C CNN
+	1    4100 5400
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -960,46 +910,9 @@ F 3 "" H 4100 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 5350 4350 5600
-Wire Wire Line
-	4100 5350 4100 5600
-$Comp
-L Device:C C402
-U 1 1 6043F258
-P 3500 5400
-F 0 "C402" H 3615 5446 50  0000 L CNN
-F 1 "0.1uF" H 3615 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3538 5250 50  0001 C CNN
-F 3 "~" H 3500 5400 50  0001 C CNN
-	1    3500 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 5200 3500 5200
-Wire Wire Line
-	3500 5200 3500 5250
-Wire Wire Line
 	2300 5200 1750 5200
 Wire Wire Line
 	1750 5250 1750 5200
-Wire Wire Line
-	1750 5200 1750 4900
-Connection ~ 1750 5200
-Connection ~ 1750 4900
-Wire Wire Line
-	1750 4900 2300 4900
-Wire Wire Line
-	3300 4900 4100 4900
-Wire Wire Line
-	4350 5050 4350 4900
-Connection ~ 4350 4900
-Wire Wire Line
-	4100 5050 4100 4900
-Connection ~ 4100 4900
-Wire Wire Line
-	4100 4900 4350 4900
-Wire Wire Line
-	1450 4900 1750 4900
 Wire Wire Line
 	3850 3200 3900 3200
 Wire Wire Line
@@ -1022,10 +935,10 @@ Connection ~ 6700 2350
 Wire Wire Line
 	7200 2350 6700 2350
 $Comp
-L Device:C C200
+L Device:C C100
 U 1 1 603C5A2C
 P 6700 2650
-F 0 "C200" H 6815 2696 50  0000 L CNN
+F 0 "C100" H 6815 2696 50  0000 L CNN
 F 1 "0.1uF" H 6815 2605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6738 2500 50  0001 C CNN
 F 3 "~" H 6700 2650 50  0001 C CNN
@@ -1033,10 +946,10 @@ F 3 "~" H 6700 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C300
+L Device:C C200
 U 1 1 603C5B37
 P 6700 4350
-F 0 "C300" H 6815 4396 50  0000 L CNN
+F 0 "C200" H 6815 4396 50  0000 L CNN
 F 1 "0.1uF" H 6815 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6738 4200 50  0001 C CNN
 F 3 "~" H 6700 4350 50  0001 C CNN
@@ -1046,10 +959,10 @@ $EndComp
 Wire Wire Line
 	4400 3650 4400 3750
 $Comp
-L Device:C CBN1
+L Device:C CN1
 U 1 1 6108898D
 P 4250 7000
-F 0 "CBN1" H 4365 7046 50  0000 L CNN
+F 0 "CN1" H 4365 7046 50  0000 L CNN
 F 1 "22uF" H 4365 6955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4288 6850 50  0001 C CNN
 F 3 "~" H 4250 7000 50  0001 C CNN
@@ -1083,10 +996,10 @@ $EndComp
 Wire Wire Line
 	4250 6250 4250 6350
 $Comp
-L Device:C C201
+L Device:C C101
 U 1 1 603C5976
 P 7200 2650
-F 0 "C201" H 7315 2696 50  0000 L CNN
+F 0 "C101" H 7315 2696 50  0000 L CNN
 F 1 "0.1uF" H 7315 2605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7238 2500 50  0001 C CNN
 F 3 "~" H 7200 2650 50  0001 C CNN
@@ -1094,10 +1007,10 @@ F 3 "~" H 7200 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C301
+L Device:C C201
 U 1 1 603C5AC3
 P 7200 4350
-F 0 "C301" H 7315 4396 50  0000 L CNN
+F 0 "C201" H 7315 4396 50  0000 L CNN
 F 1 "0.1uF" H 7315 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7238 4200 50  0001 C CNN
 F 3 "~" H 7200 4350 50  0001 C CNN
@@ -1105,10 +1018,10 @@ F 3 "~" H 7200 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C103
+L Device:C C304
 U 1 1 603D9284
 P 3900 3500
-F 0 "C103" H 4015 3546 50  0000 L CNN
+F 0 "C304" H 4015 3546 50  0000 L CNN
 F 1 "0.1uF" H 4015 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 3350 50  0001 C CNN
 F 3 "~" H 3900 3500 50  0001 C CNN
@@ -1133,124 +1046,136 @@ Wire Wire Line
 	4700 6800 4700 6900
 Wire Wire Line
 	4250 7250 4550 7250
-Text GLabel 9850 3250 2    50   Input ~ 0
-MicOutB-Pos
-Text GLabel 9850 3550 2    50   Input ~ 0
-MicOutB-Neg
-Text GLabel 9850 3850 2    50   Input ~ 0
-MicOutB-Gnd
-Text GLabel 9850 1550 2    50   Input ~ 0
-MicOutA-Pos
-Text GLabel 9850 1850 2    50   Input ~ 0
-MicOutA-Neg
-Text GLabel 9850 2150 2    50   Input ~ 0
-MicOutA-Gnd
-Text GLabel 1800 1650 0    50   Input ~ 0
-MicInA-Sig
-Text GLabel 1800 2900 0    50   Input ~ 0
-MicInB-Sig
-Text GLabel 1800 3600 0    50   Input ~ 0
-MicInB-Gnd
-Text GLabel 1800 2350 0    50   Input ~ 0
-MicInA-Gnd
-Text GLabel 1800 3250 0    50   Input ~ 0
-MicInB-Bias
-Text GLabel 1800 2000 0    50   Input ~ 0
-MicInA-Bias
+Wire Wire Line
+	9350 1850 9750 1850
+Wire Wire Line
+	9350 1550 9750 1550
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 612F1534
-P 6200 5300
-F 0 "H1" H 6300 5351 50  0000 L CNN
-F 1 "Hole1" H 6300 5260 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 6200 5300 50  0001 C CNN
-F 3 "~" H 6200 5300 50  0001 C CNN
-	1    6200 5300
+L Mechanical:MountingHole H1
+U 1 1 61314BA8
+P 1250 6450
+F 0 "H1" H 1350 6496 50  0000 L CNN
+F 1 "MountingHole" H 1350 6405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 1250 6450 50  0001 C CNN
+F 3 "~" H 1250 6450 50  0001 C CNN
+	1    1250 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 612F1689
-P 6750 5300
-F 0 "H2" H 6850 5351 50  0000 L CNN
-F 1 "Hole2" H 6850 5260 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 6750 5300 50  0001 C CNN
-F 3 "~" H 6750 5300 50  0001 C CNN
-	1    6750 5300
+L Mechanical:MountingHole H2
+U 1 1 6131F604
+P 1250 6700
+F 0 "H2" H 1350 6746 50  0000 L CNN
+F 1 "MountingHole" H 1350 6655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 1250 6700 50  0001 C CNN
+F 3 "~" H 1250 6700 50  0001 C CNN
+	1    1250 6700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 613296E9
+P 1250 6950
+F 0 "H3" H 1350 6996 50  0000 L CNN
+F 1 "MountingHole" H 1350 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 1250 6950 50  0001 C CNN
+F 3 "~" H 1250 6950 50  0001 C CNN
+	1    1250 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 613334C0
+P 1250 7200
+F 0 "H4" H 1350 7246 50  0000 L CNN
+F 1 "MountingHole" H 1350 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 1250 7200 50  0001 C CNN
+F 3 "~" H 1250 7200 50  0001 C CNN
+	1    1250 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C402
+U 1 1 612F351C
+P 3750 5100
+F 0 "C402" H 3865 5146 50  0000 L CNN
+F 1 "0.1uF" H 3865 5055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3788 4950 50  0001 C CNN
+F 3 "~" H 3750 5100 50  0001 C CNN
+	1    3750 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5550 4350 5600
+Wire Wire Line
+	4100 5550 4100 5600
+Wire Wire Line
+	4100 5250 4100 4900
+Wire Wire Line
+	4100 4900 4350 4900
+Wire Wire Line
+	4350 4900 4350 5250
+Connection ~ 4350 4900
+Connection ~ 4100 4900
+Wire Wire Line
+	3300 4900 3750 4900
+Wire Wire Line
+	3750 4950 3750 4900
+Connection ~ 3750 4900
+Wire Wire Line
+	3750 4900 4100 4900
 $Comp
 L power:GNDA #PWR0123
-U 1 1 612F1B14
-P 6200 5500
-F 0 "#PWR0123" H 6200 5250 50  0001 C CNN
-F 1 "GNDA" H 6205 5327 50  0000 C CNN
-F 2 "" H 6200 5500 50  0001 C CNN
-F 3 "" H 6200 5500 50  0001 C CNN
-	1    6200 5500
+U 1 1 6132248E
+P 3750 5600
+F 0 "#PWR0123" H 3750 5350 50  0001 C CNN
+F 1 "GNDA" H 3755 5427 50  0000 C CNN
+F 2 "" H 3750 5600 50  0001 C CNN
+F 3 "" H 3750 5600 50  0001 C CNN
+	1    3750 5600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 5250 3750 5600
+Wire Wire Line
+	3500 5600 3500 5200
+Wire Wire Line
+	3500 5200 3300 5200
+$Comp
+L Device:C C401
+U 1 1 6132C520
+P 1750 5400
+F 0 "C401" H 1865 5446 50  0000 L CNN
+F 1 "0.1uF" H 1865 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1788 5250 50  0001 C CNN
+F 3 "~" H 1750 5400 50  0001 C CNN
+	1    1750 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 4900 1500 4900
+Connection ~ 1500 4900
+Wire Wire Line
+	1500 4900 1750 4900
+Wire Wire Line
+	1500 4900 1500 5250
+Wire Wire Line
+	1750 5200 1750 4900
+Connection ~ 1750 5200
+Connection ~ 1750 4900
+Wire Wire Line
+	1750 4900 2300 4900
 $Comp
 L power:GNDA #PWR0124
-U 1 1 612F7F23
-P 6750 5500
-F 0 "#PWR0124" H 6750 5250 50  0001 C CNN
-F 1 "GNDA" H 6755 5327 50  0000 C CNN
-F 2 "" H 6750 5500 50  0001 C CNN
-F 3 "" H 6750 5500 50  0001 C CNN
-	1    6750 5500
+U 1 1 6133C8F8
+P 1500 5600
+F 0 "#PWR0124" H 1500 5350 50  0001 C CNN
+F 1 "GNDA" H 1505 5427 50  0000 C CNN
+F 2 "" H 1500 5600 50  0001 C CNN
+F 3 "" H 1500 5600 50  0001 C CNN
+	1    1500 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 5400 6200 5500
-Wire Wire Line
-	6750 5400 6750 5500
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 61318145
-P 7300 5300
-F 0 "H3" H 7400 5351 50  0000 L CNN
-F 1 "Hole3" H 7400 5260 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 7300 5300 50  0001 C CNN
-F 3 "~" H 7300 5300 50  0001 C CNN
-	1    7300 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR0125
-U 1 1 6131814C
-P 7300 5500
-F 0 "#PWR0125" H 7300 5250 50  0001 C CNN
-F 1 "GNDA" H 7305 5327 50  0000 C CNN
-F 2 "" H 7300 5500 50  0001 C CNN
-F 3 "" H 7300 5500 50  0001 C CNN
-	1    7300 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 5400 7300 5500
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 61325252
-P 7800 5300
-F 0 "H4" H 7900 5351 50  0000 L CNN
-F 1 "Hole4" H 7900 5260 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 7800 5300 50  0001 C CNN
-F 3 "~" H 7800 5300 50  0001 C CNN
-	1    7800 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 61325259
-P 7800 5500
-F 0 "#PWR?" H 7800 5250 50  0001 C CNN
-F 1 "GNDA" H 7805 5327 50  0000 C CNN
-F 2 "" H 7800 5500 50  0001 C CNN
-F 3 "" H 7800 5500 50  0001 C CNN
-	1    7800 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7800 5400 7800 5500
+	1500 5550 1500 5600
 $EndSCHEMATC
